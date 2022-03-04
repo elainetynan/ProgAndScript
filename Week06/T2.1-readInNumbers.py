@@ -1,5 +1,7 @@
 # T2.1-readInNumers.py
 #
+# Read in 2 numbers are multiply them.
+#
 # Author: Andrew Beatty
 
 
@@ -14,7 +16,7 @@ def readNum(message="Please enter a number: "):
             num = int(input(message))
             break
         except ValueError:
-            print("That was not a number")
+            print("That was not a number", end="") # end="" does not go to a new line
     return num
 
 num1 = readNum()

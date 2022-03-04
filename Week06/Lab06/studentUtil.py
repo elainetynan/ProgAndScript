@@ -1,8 +1,7 @@
 # studentUtil.py
 #
 # Functions for menu driven app to manage Student details
-# 
-# Author: Elaine Tynan
+#
 
 def displayMenu():
     print("\n\n")

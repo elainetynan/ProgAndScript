@@ -1,0 +1,17 @@
+# Question 1 a
+You will get an error stating ' No such file or directory'
+
+# Question 1b
+7 & 13
+7 is the number of characters witten to the file in the first write
+(including spaces and carriage returns) and 13 is the number of charcters
+wrtten to the file in the second write.
+
+# Question 1c
+another line (and a carriage return, i.e. a blank line)
+The second write overwrites the first.
+
+# Question 1d
+test d
+another line (and a carriage return, i.e. a blank line)
+The second write appends to the end (mode is a).

@@ -9,13 +9,11 @@ import studentUtil as su
 # Call functions to run menu
 students = []
 choice = su.displayMenu()
-while choice != "q":
-    if choice == "a":
-        su.doAdd(students)
-    elif choice == "v":
-        su.doView(students)
-    elif choice == "q":
-        break
-    else:
-        print("Incorrect option, try again")
-    choice = su.displayMenu()
+if choice == "a":
+    su.doAdd(students)
+elif choice == "v":
+    su.doView(students)
+elif choice == "q":
+    print("Goodbye")
+else:
+    print("Incorrect option")
