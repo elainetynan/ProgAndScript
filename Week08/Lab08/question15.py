@@ -1,4 +1,4 @@
-# questions8To10.py
+# question15.py
 #
 # Makes a list called ages that has, the same number random values
 # as salaries, (range:21 to 65) . Make scatter plot of this data.
@@ -6,6 +6,8 @@
 # Add a line to the plot that shows y= x2 in a different colour and 
 # add a legend, title and axis labels to this plot. Finally save 
 # this to a file called “prettier-plot.py”
+#
+# Add a line of normal distribution to the plot.
 #
 # Author: Andrew Beatty
 #
